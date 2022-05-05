@@ -1,0 +1,96 @@
+body {
+    background: rgb(254,8,121);
+    background: -moz-linear-gradient(90deg, rgba(254,8,121,1) 19%, rgba(0,55,179,1) 42%, rgba(255,130,226,1) 72%);
+    background: -webkit-linear-gradient(90deg, rgba(254,8,121,1) 19%, rgba(0,55,179,1) 42%, rgba(255,130,226,1) 72%);
+    background: linear-gradient(90deg, rgba(254,8,121,1) 19%, rgba(0,55,179,1) 42%, rgba(255,130,226,1) 72%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe0879",endColorstr="#ff82e2",GradientType=1);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#demotext {
+    text-shadow: #FFF 0px 0px 5px, #70BAFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 2px 2px 2px rgba(206,89,55,0);
+    color: #FED715;
+    background: #FF82E2;
+    }
+header{
+    display: flex;
+    justify-content:center;
+    height: 100px;
+    background-color: #FE0879;
+}
+
+.nav-link{
+    display: flex;
+    margin-left: 15%;
+    font-weight: bolder;
+    font-style: italic;
+    color: #FED715;
+    font-family: 'Rosario', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 3px #70BAFF;
+}
+
+h1{
+    color:#FED715  
+}
+
+#demoparagraph {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+    -webkit-column-rule: 50px solid #FF82E2;
+    -moz-column-rule: 50px solid #FF82E2;
+    column-rule: 50px solid #FF82E2;
+    text-align:center;
+    background-color: #FED715
+    
+    
+    }
+ul{
+    display: flex;
+    list-style: none;
+    color:#FED715
+}
+
+#borderDemo {
+        border: 30px outset #70BAFF;
+    width: 100px;
+    height: 100px;
+    }
+    .primary{
+        background-color: #70BAFF
+    }
+   
+.banner-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+.col-4{
+    width: 33.3%;
+}
+.col-6{
+    width: 50%;
+}
+.card{
+    width: auto;
+    background-color: #FE0879;
+    padding: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF82E2; 
+    box-shadow: 5px 5px 15px 5px #FED715;
+} 
+.card2{
+    background-color: #FF82E2;
+    padding: 8%;
+    -webkit-box-shadow: 5px 5px 15px 5px #FF82E2; 
+    box-shadow: 5px 5px 15px 5px #FED715;
+}
+footer{
+    background-color: #70BAFF;
+    text-align: center;
+}
